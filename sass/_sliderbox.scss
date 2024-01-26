@@ -1,0 +1,63 @@
+/*
+////////////ESTILOS BOXPRUEBA///////////
+////////////////////////////////////////
+*/
+
+
+.sliderBox{
+    width: 1280px;
+    height: auto;
+    margin: 10px auto 0;
+    overflow: hidden;
+  }
+  
+  .sliderBox ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+  
+  }
+  
+  .sliderBox li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+  
+  }
+  .texto{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: darkred;
+  }
+  .texto h2{
+    font-size: 35px;
+    margin-bottom: 35px;
+  
+  }
+  .texto p{
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .sliderBox img{
+    width: 100%;
+    height: 100vh;
+  
+  }
+  
+  @keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+  
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+  
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+  
+    75% {margin-left: -100%;}
+    100% {margin-left: -100%;}
+  }

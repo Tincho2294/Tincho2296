@@ -1,0 +1,37 @@
+@import "navbar";
+@import "main";
+@import "header";
+@import "footer";
+@import "boxnosotros";
+@import "reset";
+@import "sliderbox";
+@import "contactoestilo";
+@import "cardestilos";
+
+@media (max-width: 600px) {
+  
+    #body{
+      height: 100%;
+      width: 100%;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #header{
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #nav{
+        padding-right: 10px;
+        padding: 10px 0px;
+        justify-content: center;
+    }
+  
+    #cardPresentacion{
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+    }
+
+  }

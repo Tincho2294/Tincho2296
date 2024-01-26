@@ -1,0 +1,23 @@
+/*
+/////////////////ESTILOS DEL HEADER/////////////////
+////////////////////////////////////////////////////
+*/
+#header{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo h1{
+  color: white;
+  font-family: "Italianno", cursive;
+  margin-left: 10px;
+
+}

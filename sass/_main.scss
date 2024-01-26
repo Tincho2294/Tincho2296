@@ -1,0 +1,31 @@
+/*//////////////////////ESTILO DEL MAIN///////////////
+//////////////////////////////////////////////////////
+*/
+#main{
+  background-color: gray;
+}
+#mainContacto{
+  background-color:white;
+}
+
+.imgPortadaInicio {
+  width: 100%;
+  height: 100vh;
+}
+.portadaPrincipal{
+  background-color: gray;
+}
+
+.portadaPrincipal h1 {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.portadaPrincipal h5 {
+  margin-top: 35px;
+  font-size: 19px;
+  margin-left: 10px;
+}
